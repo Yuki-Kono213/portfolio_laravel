@@ -1,0 +1,159 @@
+.title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.works {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.profile-logo {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+body {
+    background-color: gray;
+}
+
+
+img {
+    border-radius: 20px;
+}
+
+.top-image img {
+    max-width: 50%;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    background-color: silver;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 11%;
+    font-size: 22pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 12px;
+    background: #999999;
+    color: #ffffff;
+    line-height: 1em;
+    transition: .3s;
+    box-shadow: 6px 6px 3px #666666;
+    border: 2px solid #999999;
+}
+
+.button:hover {
+    box-shadow: none;
+    color: #999999;
+    background: #ffffff;
+}
+
+.title {
+    text-align: center;
+}
+.skill {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.skillList{
+    margin-left: auto;
+    margin-right: auto;
+}
+.skillBox{
+
+    width: 30%;
+    border: 2px white solid;
+    font-size: 40px;
+    text-align: center;
+}
+.skillHeader {
+    color: white;
+}
+.skillRate {
+    color: gold;
+}
+.skillRank {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: 2px white solid;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    border: solid 3px white;
+
+}
+
+.container>div:nth-child(2n) {
+    padding: 15px 30px 15px 30px;
+    text-align: left;
+    width: 50%;
+}
+
+.container>div:nth-child(2n) img {
+    max-width: 100%;
+    width: auto;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container>div:nth-child(2n+1) {
+    padding: 15px 30px 15px 30px;
+    text-align: left;
+    width: 50%;
+}
+
+.profile{
+    text-align: center;
+    color: white;
+}
+
+.container>div:nth-child(2n+1) img {
+
+    max-width: 100%;
+    width: auto;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+    /*ウィンドウ幅が最大700pxまでの場合に適用*/
+
+    .container {
+        display: block;
+    }
+
+    .container>div:nth-child(n) {
+        width: 100%;
+    }
+
+    .container>div:nth-child(n) img {
+
+        max-width: 100%;
+        width: auto;
+        height: 250px;
+    }
+}
