@@ -463,8 +463,7 @@
     <div class="works">My Products</div>
     <div class="container">
         <div class="product">
-            <div class="title">地震監視システム<br>
-                (講師によるチェック中)</div>
+            <div class="title">地震監視システム</div>
             <div class="imgbox">
                 <img src="{{ asset('img/QuakeMonitor.png') }}" alt="">
             </div>
@@ -481,7 +480,7 @@
             <div>laravel / SQL / JavaScript</div>
         </div>
         <div class="product">
-            <div class="title"> ランダム映画 <br><br> </div>
+            <div class="title"> ランダム映画 </div>
             <div class="imgbox">
                 <img id="randommoviepic" src="{{ asset('img/Random-Movie1.png') }}" alt="">
             </div>
