@@ -9,7 +9,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{secure_asset('css/style.css') }}">
     <!-- Styles -->
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -428,28 +428,28 @@
     <table class="skillList">
         <tr class="skillTable">
             <td class="skillBox">
-                <span class="skillHeader">C#</span>
+                <span class="skillHeader">C#</span><br>
                 <span class="skillRate">★★★☆☆</span>
             </td>
             <td class="skillBox">
-                <span class="skillHeader">Java</span>
+                <span class="skillHeader">Java</span><br>
                 <span class="skillRate">★★★☆☆</span>
             </td>
             <td class="skillBox">
-                <span class="skillHeader">PHP</span>
+                <span class="skillHeader">PHP</span><br>
                 <span class="skillRate">★★☆☆☆</span>
             </td>
         <tr class="skillTable">
             <td class="skillBox">
-                <span class="skillHeader">JavaScript</span>
+                <span class="skillHeader">JavaScript</span><br>
                 <span class="skillRate">★★☆☆☆</span>
             </td>
             <td class="skillBox">
-                <span class="skillHeader">Laravel</span>
+                <span class="skillHeader">Laravel</span><br>
                 <span class="skillRate">★★☆☆☆</span>
             </td>
             <td class="skillBox">
-                <span class="skillHeader">Unity</span>
+                <span class="skillHeader">Unity</span><br>
                 <span class="skillRate">★☆☆☆☆</span>
             </td>
         </tr>
@@ -492,7 +492,9 @@
                 「暇だけど、見たい映画がない人」のために作りました。<br>
                 条件を指定すると、その条件に合致する映画をランダムで探し出してくれます。
                 会員登録をすれば、すでに見た映画を登録、採点することができます。
-                画像の表示を行うので速度を確保するために、非同期通信を用いています。
+                画像の表示を行うので速度を確保するために、非同期通信を用いています。<br>
+                テスト用メールアドレス:test@gmail.com<br>
+                テスト用パスワード:testpass
             </div>
             <br>
             <div>laravel / SQL / TMDB API</div>
