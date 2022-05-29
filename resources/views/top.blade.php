@@ -9,7 +9,12 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{secure_asset('css/style.css') }}">
+     @if(app('env')=='local')
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    @endif
+        @if(app('env')=='production')
+        <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
+    @endif
     <!-- Styles -->
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
