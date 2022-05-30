@@ -557,7 +557,7 @@
         </div>
         <div class="product">
 
-            <div class="title">請求書管理ツール<br>(作成中 5月完成予定)
+            <div class="title">請求書管理ツール<br>(作成中 6月完成予定)
             </div>
             <div class="imgbox">
                 <img id="clientmanagerpic" src="{{ asset('img/ClientManager.png') }}" alt="">
