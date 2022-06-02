@@ -528,7 +528,7 @@
             </div>
             <div class="button-box">
                 <a class="button" href="https://github.com/Yuki-Kono213/WikiPersonCalendar">GitHub</a>
-                <a class="button" href="{{ asset('zip/WikiPersonCalendar') }}" download="WikiPersonCalendar.zip">Windows</a>
+                <a class="button" href="{{ asset('zip/WikiPersonCalendar.zip') }}" download="WikiPersonCalendar.zip">Windows</a>
             </div>
             <div>　起動した日付のWikipediaからデータを取得し、
                 誕生から10の倍数周年が経過した人物の名前と周年を表示します。<br>
